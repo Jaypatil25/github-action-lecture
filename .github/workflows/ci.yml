@@ -1,0 +1,13 @@
+# Name 
+# Trigger / Event
+# Job
+  #Steps 
+
+  name: React Ci
+
+  on: push
+
+  jobs: 
+      run test: 
+        runs-on: ubuntu-latest
+        
